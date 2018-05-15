@@ -86,12 +86,8 @@ db.users.aggregate(
   $match: {
    address: {
     $regex: "Utah"
-    }
-   }
-  },
-  {
-  $match: {
-   isActive: true
+   },
+   isActive: true 
    }
   },
   {
